@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+.parent{
+    color: white;
+    text-align: center;
+    background-color: red;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 60px;
+    border: 2px solid white;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+#result {
+    margin-top: 60px;
+    color: blue;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 64px;
+}
+
+#generate-btn{
+    margin: 0 auto;
+}
+
+@media(max-width:992px){
+    body{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
